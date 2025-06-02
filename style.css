@@ -47,12 +47,24 @@ div {
 .box1,
 .box2,
 .box3 {
-    width: 200px;
-    height:200px;
+    width: 300px;
+    height:auto;
     border: 0px rgb(72, 167, 255);
     border-style: solid;
-    border-width: 5px
+    border-width: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: 10px;
+    
    
     
+}
+
+.wagonstar,
+.warpstar,
+.wingedstar {
+    height: 150px;
+    width: auto;
 }
 
